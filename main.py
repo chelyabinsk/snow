@@ -49,7 +49,7 @@ class Renderer:
                         ]
 
             f.set_force(tmp_vec)
-            #f.add_force([random()*0.5,random()*0.5])
+            f.add_force([random()*0.5,random()*0.5])
             self.move_flake(f)
         
     def main_loop(self):
